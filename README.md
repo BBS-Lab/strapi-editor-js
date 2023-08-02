@@ -30,33 +30,6 @@ Requirements
 - [x] [InlineCode Tool](https://github.com/editor-js/inline-code)
 
 ## 🔧 Installation
-```bash
-yarn add strapi-plugin-react-editorjs
-# or
-npm install strapi-plugin-react-editorjs
-```
-
-In order for Strapi to show the Link Tool thumbnails correctly, you will need to edit the 'strapi::security' line in ./config/middlewares.js. Change that line to the following (do this at your own risk).
-
-```js
-module.exports = [
-  // ...
-  {
-    name: 'strapi::security',
-    config: {
-      contentSecurityPolicy: {
-        directives: {
-          'img-src': ['*'],
-        },
-      }
-    },
-  },
-  // ...
-];
-```
-
-
-## 🤟🏻 Getting Started
 
 ```bash
 yarn add @bigbossstudio/strapi-plugin-editorjs
