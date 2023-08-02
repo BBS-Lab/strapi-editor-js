@@ -1,8 +1,8 @@
 {
-  "name": "strapi-plugin-editorjs",
+  "name": "@bigbossstudio/strapi-plugin-editorjs",
   "version": "0.0.1",
   "description": "Plugin for Strapi Headless CMS, hiding the standard WYSIWYG editor and replacing it with Editor.js",
-  "homepage": "https://market.strapi.io/plugins/strapi-plugin-react-editorjs",
+  "homepage": "https://github.com/BBS-Lab/strapi-plugin-editorjs",
   "strapi": {
     "icon": "plug",
     "name": "editorjs",
@@ -44,32 +44,16 @@
       "path": "./node_modules/cz-conventional-changelog"
     }
   },
-  "author": {
-    "name": "Matvey Melishev",
-    "email": "matvey@melishev.ru",
-    "url": "https://melishev.ru"
-  },
-  "maintainers": [
-    {
-      "name": "Matvey Melishev",
-      "email": "matvey@melishev.ru",
-      "url": "https://melishev.ru"
-    },
-    {
-      "name": "Jason Skipper",
-      "url": "https://www.skipperinnovations.com"
-    }
-  ],
   "engines": {
     "node": ">=10.16.0 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/melishev/strapi-plugin-editor-js.git"
+    "url": "https://github.com/BBS-Lab/strapi-plugin-editorjs.git"
   },
   "bugs": {
-    "url": "https://github.com/melishev/strapi-plugin-editor-js/issues"
+    "url": "https://github.com/BBS-Lab/strapi-plugin-editorjs/issues"
   },
   "keywords": [
     "strapi",
