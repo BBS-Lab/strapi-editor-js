@@ -1,6 +1,6 @@
 {
   "name": "@bigbossstudio/strapi-plugin-editorjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin for Strapi Headless CMS, hiding the standard WYSIWYG editor and replacing it with Editor.js",
   "homepage": "https://github.com/BBS-Lab/strapi-plugin-editorjs",
   "strapi": {
