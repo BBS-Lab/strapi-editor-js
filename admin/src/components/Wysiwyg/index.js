@@ -23,7 +23,7 @@ const Wysiwyg = ({
   const { formatMessage } = useIntl();
 
   return (
-    <Wrapper size={1} className={`${cn(!isEmpty(className) && className)}`} style={style}>            
+    <Wrapper size={1} className={`${cn(!isEmpty(className) && className)}`} style={style}>
       <Box>
         <Typography variant="pi" fontWeight="bold">
           {formatMessage(intlLabel)}
@@ -43,7 +43,7 @@ const Wysiwyg = ({
       {description && (
         <Typography variant="pi">{formatMessage(description)}</Typography>
       )}
-      
+
     </Wrapper>
   )
 };
@@ -52,7 +52,6 @@ Wysiwyg.defaultProps = {
   className: "",
   style: {},
   tabIndex: "0",
-  value: null,
   description: '',
   disabled: false,
   error: undefined,

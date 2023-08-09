@@ -7,7 +7,7 @@ const controllers = require('./controllers');
 module.exports = {
   services,
   routes,
-  controllers
+  controllers,
 }
 
 

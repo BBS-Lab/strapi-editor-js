@@ -199,6 +199,24 @@ const Wrapper = styled(Box)`
     line-height: 1.5;
   }
 
+
+  #color-left-btn {
+    height: 35px;
+    width: 18px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+  }
+
+  #color-btn-text{
+    height: 22px;
+    width: 100%;
+  }
+  
+  #color-btn-text svg{
+    width: 100%;
+  }
   
 `;
 
